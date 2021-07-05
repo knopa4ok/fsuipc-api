@@ -1,0 +1,26 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var FuelTank;
+(function (FuelTank) {
+    FuelTank["NONE"] = "none";
+    FuelTank["ALL"] = "all";
+    FuelTank["LEFT"] = "left";
+    FuelTank["RIGHT"] = "right";
+    FuelTank["LEFT_AUX"] = "leftAux";
+    FuelTank["RIGHT_AUX"] = "rightAux";
+    FuelTank["CENTER"] = "center";
+    FuelTank["CENTER2"] = "center2";
+    FuelTank["CENTER3"] = "center3";
+    FuelTank["EXT1"] = "ext1";
+    FuelTank["EXT2"] = "ext2";
+    FuelTank["RIGHT_TIP"] = "rightTip";
+    FuelTank["LEFT_TIP"] = "leftTip";
+    FuelTank["CROSS_FEED"] = "crossFeed";
+    FuelTank["CROSS_FEED_LTR"] = "crossFeedLTR";
+    FuelTank["CROSS_FEED_RTL"] = "crossFeedRTL";
+    FuelTank["CROSS_FEED_BOTH"] = "crossFeedBoth";
+    FuelTank["EXTERNAL"] = "external";
+    FuelTank["ISOLATE"] = "isolate";
+    FuelTank["LEFT_MAIN"] = "leftMain";
+    FuelTank["RIGHT_MAIN"] = "rightMain";
+})(FuelTank = exports.FuelTank || (exports.FuelTank = {}));
