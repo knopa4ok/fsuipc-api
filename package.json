@@ -1,0 +1,21 @@
+{
+  "name": "@fsuipc/api",
+  "version": "0.4.0",
+  "author": {
+    "name": "FSUIPC-Node Opensource Team",
+    "url": "https://github.com/fsuipc-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsuipc-node/api"
+  },
+  "homepage": "https://github.com/fsuipc-node",
+  "license": "MIT",
+  "main": "./api.js",
+  "types": "./lib/index.d.ts",
+  "peerDependencies": {
+    "fsuipc": "^0.3.0",
+    "rxjs": "^6.5.0",
+    "vm2": "^3.8.0"
+  }
+}
